@@ -1,0 +1,284 @@
+Section I: Networks
+
+Lecture 1
+
+Adjacency matrix
+connectivity of node
+connectivity distribution of network
+average connectivity in network
+clustering of node
+average clustering in network
+
+Lecture 2
+
+average clustering in network
+Network structure related to adjacency matrix
+clustering coefficient
+clustering degree function
+distance in networks
+diameter of networks
+Erdös-Renyi (ER) model¨
+
+Lecture 3
+
+Watts-strogatz small-world model
+Scale free networks
+Barabási-Albert (BA) scale-free model
+ - global attachment rule
+Preferential attachment
+Biological networks, PIN in yeast
+SF topology
+Duplication & Diversification (DD) model
+
+Lecture 4
+
+Configuration model
+Centrality in a network
+Betweenness-centrality (BC)
+identifying “bridges” in the network
+Network decomposition or “peeling”
+
+Lecture 5
+
+Degree correlations - Pearson’s expression
+quantify degree assortativity
+Neighbor-degree correlation
+Robustness in a network setting
+Consequences of network damage
+Random network (ER) node removal
+Scale-free network and node failure
+
+Lecture 6
+
+Possible network configurations – what
+is most robust?
+How can networks can help us
+understand disease?
+Human diseasesome
+Human disease network (HDN)
+Disease Gene Network
+Gene-correlation network analyses
+Differential network analysis 
+
+Lecture 7
+
+Differential co-expression networks
+CSD-method for differential co-expression
+network analysis
+Applications of differential network analysis
+Disease co-morbidity:
+Metabolic disease network (MDN)
+Assortativity
+Network robustness
+Weighted networks
+Representation of weighted networks
+Weight & topology correlations
+
+Lecture 8
+
+Communities in networks
+Connectedness
+Density
+Ravasz algorithm
+Agglomorative clustering method
+Divisive clustering method
+measure community strength
+Girvan-Newman algorithm
+
+Lecture 9
+
+Modularity in Cellular Networks
+Fractal properties
+hierarchical networks
+Entropy
+Empirical data for predictability
+
+Lecture 10
+
+GLEAM modeling
+Identification of epidemic origin
+Oslo municipality simulation
+Vaccination-herd immunity as function of R
+
+Lecture 11
+
+spreading on network
+Protein Interaction Network
+Network peeling
+
+
+Section II: metabolism
+
+Lecture 12
+
+Metabolic Network Structure
+Metabolic network representations
+model genome-scale metabolism: Flux Balance Analysis (FBA)
+Principle of mass conservation give reaction flux
+Ex 1: Two coupled reactions - adjacency matrix from reactions
+
+Lecture 13
+
+Stoichiometric matrix is central to all metabolic modelling
+When is FBA well suited to explain experiments?
+Example: Glycolysis
+Cycle of refinement
+How do we optimize? Example (small) metabolic network
+FBA principle
+
+Lecture 14
+
+Phenotype Phase-Plane (PhPP) Analysis
+Shadow price
+Further interpretation of Shadow Price
+Structure of typical PhPP
+Robustness analysis and PhPP
+Modifying the genetic content of a cell
+Assumptions of gene-knockout simulation
+Minimization of Metabolic Adjustment (MoMA)
+Why is MoMA Quadratic Programming (QP)
+
+Lecture 15
+
+COBRA = Constraint-Based Reconstruction and Analysis
+How we can play with FBA to investigate cellular phenotypes
+Epistasis
+FBA & MoMA: detailed comparison
+Epistasis and epistatic interactions
+Algorithm for detecting epistatic network modules
+Schematic reaction view of “Lazarus effect”
+
+Lecture 16
+
+Variety of COBRA approaches
+Flux Variability Analysis (FVA) principle
+Flux-Coupling Finder (FCF)
+FCF Analysis of E.col
+Objective function suggestions
+Pareto-optimal surface 
+
+Lecture 17
+
+Dynamic FBA -- dFBA
+Constraining the amount of proteins – ecFBA
+Dynamic FBA with enzymatic constraints – decFBA
+GECKO framework:
+sMOMENT
+Applying AutoPACMEN to E.coli
+
+Lecture 18
+
+Using COBRA to predict organism gene content
+Evolution of minimal genome
+How do we simulate evolution of minimal genome using COBRA?
+Buchnera minimal networks
+The idea of Adaptive Laboratory Evolution (ALE)
+Connection between FBA & ALE
+Long-term adaptive evolution experiment (LTEE)
+Principle of computer-guided ALE: EvolveX
+
+Lecture 19
+
+Model-driven design of microbial phenotypes
+Central aim in strain design
+Example uses of E. coli engineering
+COBRA methods for strain engineering
+
+Lecture 20
+
+OptKnock approach for strain engineering
+Heuristic approaches for strain design
+GDLS - Genetic Design through Local Search
+Example: overproduction of lysine in E. coli
+
+Lecture 21
+
+Phenotype phase planes
+Example of application: Cryptic genes
+CryptFind: A New method for identification of cryptic/pseudo genes
+Common steps in genome-scale model building
+AutoKEGGRec: Network extracted from KEGG
+ModelExplorer: Visual tool for manual recon curation
+Metabolic plasticity: Can we identify patterns?
+The Metabolic Core
+Single metabolite use patterns
+Metabolic super-highways
+Flux re-arrangements localized to HFB
+
+Lecture 22
+
+microbial community modelling
+Human metabolic models
+How do we use COBRA in modelling microbial communities?
+COMETS platform
+Whole-Body Metabolism reconstruction
+
+Lecture 23
+
+
+Basic complex network theory
+-Statistical measures for characterizing networks
+-Standard network models (scale-free, small-world, Erdös-Rényi)
+-Properties of Protein Interaction Networks (PIN),
+ Gene Regulatory Networks (GRN)
+2. Genome-scale metabolic modeling
+-System-level organization
+-Basics of model building from genome à network
+-Basics of modeling methods (especially Flux Balance Analysis)
+
+How do we quantify network properties?
+Network theory
+Random network models
+Communities in networks
+Community identification & network resilience
+Network Robustness
+Real SF networks also vulnerable!
+Approaches to modeling disease spread
+PIN summary
+Gene co-expression networks
+Flux Balance Analysis
+Metabolic reconstruction
+Robustness analysis and PhPP
+Flux Variability Analysis
+Minimization of Metabolic Adjustment (MoMA)
+Adaptive evolution of E. coli on malate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
